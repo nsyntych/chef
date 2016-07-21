@@ -75,7 +75,7 @@ end
 
 group(:changelog) do
   gem "github_changelog_generator"
-  gem "github_api", github: "jkeiser/github", branch: "pin-less"
+  gem "github_api", git: "https://github.com/jkeiser/github.git", branch: "pin-less"
 end
 
 group(:travis) do

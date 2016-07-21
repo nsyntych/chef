@@ -1,5 +1,13 @@
 GIT
-  remote: git://github.com/jkeiser/github.git
+  remote: https://github.com/chef/chefstyle.git
+  revision: 52a0d55a9e8fb30d067c0a66371db4ae781a0269
+  branch: master
+  specs:
+    chefstyle (0.3.1)
+      rubocop (= 0.39.0)
+
+GIT
+  remote: https://github.com/jkeiser/github.git
   revision: 77ddc2f14fb19ca677987752afedf4044fbd929c
   branch: pin-less
   specs:
@@ -9,14 +17,6 @@ GIT
       faraday (~> 0.8, < 0.10)
       hashie (>= 3.4)
       oauth2 (~> 1.0)
-
-GIT
-  remote: https://github.com/chef/chefstyle.git
-  revision: 52a0d55a9e8fb30d067c0a66371db4ae781a0269
-  branch: master
-  specs:
-    chefstyle (0.3.1)
-      rubocop (= 0.39.0)
 
 GIT
   remote: https://github.com/rubysec/bundler-audit.git
