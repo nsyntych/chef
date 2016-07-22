@@ -39,6 +39,8 @@ else
   install_dir "#{default_root}/#{name}"
 end
 
+raise "hell" unless solaris?
+
 # Global FIPS override flag.
 if windows? || rhel?
   override :fips, enabled: true
