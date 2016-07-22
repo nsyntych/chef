@@ -12,6 +12,9 @@ source "https://rubygems.org"
 gem "chef", path: "."
 
 gem "chef-config", path: File.expand_path("../chef-config", __FILE__) if File.exist?(File.expand_path("../chef-config", __FILE__))
+
+gem "chef-zero", git: "https://github.com/chef/chef-zero", branch: "tm/fs_cache_reset"
+
 # Ensure that we can always install rake, regardless of gem groups
 gem "rake", group: [ :default, :omnibus_package, :development ]
 gem "bundler"
