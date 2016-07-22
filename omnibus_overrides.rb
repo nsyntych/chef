@@ -4,7 +4,7 @@ override :bundler, version: "1.12.5"
 override "libffi", version: "3.2.1"
 override "libiconv", version: "1.14"
 override "liblzma", version: "5.2.2"
-override "libtool", version: "2.4.2"
+override "libtool", version: "2.4.2" # Latest: 2.4.6
 override "libxml2", version: "2.9.4"
 override "libxslt", version: "1.1.29"
 override "libyaml", version: "0.1.6"
