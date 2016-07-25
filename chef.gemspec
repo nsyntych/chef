@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency "mixlib-authentication", "~> 1.3"
   s.add_dependency "mixlib-shellout", "~> 1.4"
   s.add_dependency "ohai", "~> 7.4"
+  s.add_dependency "socksify", "~> 1.7"
 
   # Lock down rest-client to avoid pulling in rdoc and breaking Omnibus builds
   # on Solaris. See the original issue for more details:
